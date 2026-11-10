@@ -1,0 +1,11 @@
+# Geheimnis-Sperre 10.11.2026: Umgebungsdateien und Schluessel nie ins Repo
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+id_ecdsa
